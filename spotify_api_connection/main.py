@@ -5,8 +5,8 @@ import webbrowser
 
 
 
-CLIENT_ID = "8e8557def4d04133b5292c5838ec0716"
-CLIENT_SECRET = "a1b6bc5c9d594bc1ad9ead96898797e4"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 
 token = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 cache_token = token.get_access_token()
